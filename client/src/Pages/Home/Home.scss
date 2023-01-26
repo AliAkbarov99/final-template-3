@@ -1,0 +1,239 @@
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+#intro {
+    background-image: url("https://preview.colorlib.com/theme/oneschool/images/hero_1.jpg.webp");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+
+    .container {
+        h1 {
+            z-index: 5;
+            color: white;
+        }
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: #343a40;
+        opacity: .9;
+        z-index: 1;
+    }
+}
+
+
+#programs {
+    margin-top: 100px;
+
+    h1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    & p:nth-child(2) {
+        text-align: center;
+        width: 632px;
+        margin: auto;
+        line-height: 30px;
+        color: gray;
+        font-size: 18px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+
+        .programs__left {
+            width: 50%;
+
+            img {
+                width: 635px;
+            }
+        }
+
+        .programs__right {
+            width: 30%;
+
+            h2 {
+                font-size: 30px;
+            }
+
+            & p:nth-child(2) {
+                width: 100%;
+                text-align: left;
+
+            }
+
+            div {
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+
+                span {
+                    display: inline-block;
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 50%;
+                    background-color: #7971ea;
+                    margin-right: 15px;
+                }
+
+                p {
+                    font-size: 1.05rem !important;
+                    color: #7971ea !important;
+                }
+            }
+        }
+    }
+}
+
+
+
+#strive {
+    margin-top: 150px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .strive__left {
+            width: 30%;
+
+            h2 {
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+
+            & p:nth-child(2) {
+                width: 100%;
+                text-align: left;
+                line-height: 30px;
+                font-size: 18px;
+                color: gray;
+            }
+
+            div {
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+
+                span {
+                    display: inline-block;
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 50%;
+                    background-color: #7971ea;
+                    margin-right: 15px;
+                }
+
+                p {
+                    font-size: 1.05rem !important;
+                    color: #7971ea !important;
+                }
+            }
+        }
+
+        .strive__right {
+            img {
+                width: 635px;
+            }
+        }
+    }
+}
+
+
+
+#teachers {
+    margin-top: 150px;
+    .teachers__header {
+        h1 {
+            text-align: center;
+            font-size: 48px;
+        }
+
+        p {
+            text-align: center;
+            width: 635px;
+            margin: auto;
+            color: gray;
+            font-size: 20px;
+            margin-top: 40px;
+            line-height: 30px;
+        }
+    }
+
+    .container{
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-between;
+    }
+
+}
+
+
+#add{
+    margin-top: 100px;
+
+    .add__header{
+        h1{
+            text-align: center;
+        }
+
+        p{
+            text-align: center; 
+            width: 400px;
+            margin: auto;
+            color: gray;
+            margin-top: 30px;
+            line-height: 30px;
+        }
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        form{
+            padding: 50px;
+            border: 1px solid black;
+            border-radius: 10px;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            input{
+                width: 500px;
+                padding: 10px;
+                border-radius: 10px;
+                border: 1px solid black;
+                outline: none;
+            }
+
+            button{
+                padding: 10px 30px;
+                border-radius: 10px;
+                border: none;
+                background-color: #7971ea;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                cursor: pointer;
+            }
+        }
+    }
+}
